@@ -1,0 +1,22 @@
+SEMANTIC TAGS = Gives meaning to the HTML document
+ 
+NON-SEMANTIC TAGS = Doesn't give any meaning to the HTML document
+
+
+
+SEMANTIC TAGS
+======================
+SECTION
+-------
+article, section
+
+Heading
+--------
+h1,h2,h3,h4,h5,h6
+
+LIST
+-----
+ul - Unordered List
+ol - Ordered List
+
+li - List Item

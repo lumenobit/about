@@ -1,0 +1,33 @@
+.header-text {
+    font-size: 42px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sub-header-text {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-list {
+    list-style-type: none;
+}
+
+.experience-list li {
+    margin-bottom: 10px;
+}
+
+.experience-list li div:first-child {
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.experience-list li div:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+}
