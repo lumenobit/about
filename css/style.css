@@ -1,8 +1,44 @@
-.header-text {
+body {
+    margin: 0;
+}
+
+body * {
+    color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #197cff;
+}
+
+h1 {
     font-size: 42px;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 0;
+}
+
+header {
+    padding: 64px 20px;
+    color: #fff;
+    background-color: #1362ff;
+    margin-bottom: 30px;
+}
+
+header>p {
+    margin: 0;
+}
+
+header * {
+    color: #fff;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sub-header-text {
@@ -30,4 +66,16 @@
     font-size: 12px;
     font-weight: 400;
     color: #707070;
+}
+
+footer {
+    padding: 64px 20px;
+    background-color: #061122;
+    border-top: 7px solid #1e69ff;
+    text-align: center;
+}
+
+footer * {
+    font-size: 16px;
+    color: #fff;
 }

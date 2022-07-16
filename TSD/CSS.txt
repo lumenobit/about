@@ -1,0 +1,15 @@
+We use some selector to target an element
+* TAG selector - body, h1, div
+* CLASS selector - .header-text, .sub-header-text
+* ID selector - #main-content
+
+HTML Element - BOX Structure
+
+CSS Specificity
+---------------
+.parent-class>.child-class = style will be applied to immediate child
+.parent-class .child-class = style will be applied to not only immediate child, but all children
+
+WILDCARD character
+------------------
+* = any type of element
