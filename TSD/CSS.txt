@@ -7,9 +7,20 @@ HTML Element - BOX Structure
 
 CSS Specificity
 ---------------
+.class-1.class-2 = style will be applied to the element with class-1 AND class-2
 .parent-class>.child-class = style will be applied to immediate child
 .parent-class .child-class = style will be applied to not only immediate child, but all children
 
 WILDCARD character
 ------------------
 * = any type of element
+
+CSS Property
+-------------
+display: block | inline | inline-block | flex | table | table-cell
+position: static | 
+
+
+CSS Media Query
+---------------
+We can determine the screen size (viewport size)
