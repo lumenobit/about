@@ -3,13 +3,53 @@ We use some selector to target an element
 * CLASS selector - .header-text, .sub-header-text
 * ID selector - #main-content
 
+TAG Selector
+=============
+<div></div>
+div {
+    my styles
+}
+
+<h1></h1>
+h1 {
+    my styles
+}
+
+
+CLASS Selector
+==============
+<div class="text-center"></div>
+<h1 class="text-center"></h1>
+.text-center {
+    my styles
+}
+
+ID Selector
+===========
+<div id="text-center"></div>
+<h1 id="text-center"></h1>
+#text-center {
+    my styles
+}
+
+=====================================
 HTML Element - BOX Structure
+=====================================
 
 CSS Specificity
 ---------------
 .class-1.class-2 = style will be applied to the element with class-1 AND class-2
 .parent-class>.child-class = style will be applied to immediate child
 .parent-class .child-class = style will be applied to not only immediate child, but all children
+
+How to access child elements?
+=============================
+
+To access immediate child = .header>h1
+To access all level children / grandchildren = .header h1
+To access multiple conditions together [AND Condition] = .main-header.text-center
+To access adjascent element after the 1st selector element = .header+.subtitle
+To access same level elements after the 1st selector element = .header+.subtitle
 
 WILDCARD character
 ------------------
